@@ -11,7 +11,6 @@ declare(strict_types=1);
 
 namespace Brille24\SyliusTierPricePlugin\Traits;
 
-use Brille24\SyliusTierPricePlugin\Entity\TierPrice;
 use Brille24\SyliusTierPricePlugin\Entity\TierPriceInterface;
 use Sylius\Component\Core\Model\ChannelInterface;
 
