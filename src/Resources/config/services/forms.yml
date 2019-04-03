@@ -4,9 +4,9 @@ services:
         class: Brille24\SyliusTierPricePlugin\Form\TierPriceType
         arguments: ['@sylius.repository.channel']
         tags:
-            - {'name': form.type}
+            - { name: form.type }
 
-    #Form type Extensions
+    # Form type extensions
     brille24_tier_price.form.extension.product_variant_type:
         class: Brille24\SyliusTierPricePlugin\Form\Extension\ProductVariantTypeExtension
         tags:

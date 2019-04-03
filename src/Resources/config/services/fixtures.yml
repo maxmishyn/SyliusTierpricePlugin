@@ -1,6 +1,6 @@
 services:
-    brille24_tier_price.fixtures.product_variant_fixture:
+    brille24_tier_price.fixtures.tier_price_fixture:
         class: Brille24\SyliusTierPricePlugin\Fixtures\TierPriceFixture
-        arguments: ['@doctrine.orm.default_entity_manager', '@brille24_tierprice_tierprice_factory']
+        arguments: ['@doctrine.orm.default_entity_manager', '@brille24_tier_price.tierprice_factory']
         tags:
             - { name: sylius_fixtures.fixture }
